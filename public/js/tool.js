@@ -1,5 +1,5 @@
 // connect to socket server
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://chirag-liveboard.herokuapp.com/");
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
